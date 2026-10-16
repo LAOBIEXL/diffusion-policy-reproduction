@@ -1,0 +1,69 @@
+pygame 2.1.2 (SDL 2.0.16, Python 3.10.20)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Dataset: 206 episodes, 10726 train windows
+Simulator reset/step/render passed; reward=0.000000
+
+============= Initialized Observation Utils with Obs Spec =============
+
+using obs modality: low_dim with keys: ['agent_pos']
+using obs modality: rgb with keys: ['image']
+using obs modality: depth with keys: []
+using obs modality: scan with keys: []
+/home/laobiexl/.local/share/diffusion-policy-reproduction/env/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/laobiexl/.local/share/diffusion-policy-reproduction/env/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Diffusion params: 2.515119e+08
+Vision params: 1.119709e+07
+{
+  "kind": "smoke_test_not_reproduction_result",
+  "recorded_at_utc": "2026-10-16T09:57:10.789621+00:00",
+  "python": "3.10.20",
+  "torch": "2.11.0+cu128",
+  "cuda_runtime": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5070 Laptop GPU",
+  "compute_capability": [
+    12,
+    0
+  ],
+  "upstream_commit": "5ba07ac6661db573af695b419a7947ecb704690f",
+  "dataset_episodes": 206,
+  "train_episodes": 90,
+  "validation_episodes": 116,
+  "train_windows": 10726,
+  "validation_windows": 13482,
+  "batch_size": 2,
+  "batch_shapes": {
+    "action": [
+      2,
+      16,
+      2
+    ],
+    "image": [
+      2,
+      16,
+      3,
+      96,
+      96
+    ],
+    "agent_pos": [
+      2,
+      16,
+      2
+    ]
+  },
+  "diffusion_parameters": 251511938,
+  "vision_parameters": 11197088,
+  "loss": 0.7819207310676575,
+  "gradients_finite": true,
+  "forward_backward_seconds": 2.2228724219999094,
+  "forward_backward_peak_gpu_mib": 2172.60498046875,
+  "inference_steps": 100,
+  "inference_seconds": 2.580723571000135,
+  "action_shape": [
+    1,
+    8,
+    2
+  ],
+  "simulator_step_reward": 0.0
+}

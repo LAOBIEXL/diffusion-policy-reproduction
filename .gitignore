@@ -1,0 +1,13 @@
+# Local environments and generated experiment artifacts
+.venv/
+.cache/
+data/
+runs/
+wandb/
+__pycache__/
+*.py[cod]
+*.ckpt
+*.pt
+*.pth
+*.zip
+.env

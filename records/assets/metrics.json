@@ -1,0 +1,9 @@
+{
+  "name": "metrics",
+  "url": "https://diffusion-policy.cs.columbia.edu/data/experiments/image/pusht/diffusion_policy_cnn/metrics/logs.json.txt",
+  "path": "data/reference/metrics.logs.jsonl",
+  "bytes": 29621,
+  "expected_bytes": 29621,
+  "sha256": "8bfff6a510e8ca04087aa9cfe67ff38c7f7f8fd99a8a80d54384c0609862407e",
+  "recorded_at_utc": "2026-10-16T09:34:30.830164+00:00"
+}

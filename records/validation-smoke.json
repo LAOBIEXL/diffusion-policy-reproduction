@@ -1,0 +1,52 @@
+{
+  "kind": "model_and_simulator_check",
+  "recorded_at_utc": "2026-10-16T09:57:10.789621+00:00",
+  "python": "3.10.20",
+  "torch": "2.11.0+cu128",
+  "cuda_runtime": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5070 Laptop GPU",
+  "compute_capability": [
+    12,
+    0
+  ],
+  "upstream_commit": "5ba07ac6661db573af695b419a7947ecb704690f",
+  "dataset_episodes": 206,
+  "train_episodes": 90,
+  "validation_episodes": 116,
+  "train_windows": 10726,
+  "validation_windows": 13482,
+  "batch_size": 2,
+  "batch_shapes": {
+    "action": [
+      2,
+      16,
+      2
+    ],
+    "image": [
+      2,
+      16,
+      3,
+      96,
+      96
+    ],
+    "agent_pos": [
+      2,
+      16,
+      2
+    ]
+  },
+  "diffusion_parameters": 251511938,
+  "vision_parameters": 11197088,
+  "loss": 0.7819207310676575,
+  "gradients_finite": true,
+  "forward_backward_seconds": 2.2228724219999094,
+  "forward_backward_peak_gpu_mib": 2172.60498046875,
+  "inference_steps": 100,
+  "inference_seconds": 2.580723571000135,
+  "action_shape": [
+    1,
+    8,
+    2
+  ],
+  "simulator_step_reward": 0.0
+}

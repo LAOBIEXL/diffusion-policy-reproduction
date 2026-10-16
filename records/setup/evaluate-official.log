@@ -1,0 +1,52 @@
+
+============= Initialized Observation Utils with Obs Spec =============
+
+using obs modality: low_dim with keys: ['agent_pos']
+using obs modality: rgb with keys: ['image']
+using obs modality: depth with keys: []
+using obs modality: scan with keys: []
+/home/laobiexl/.local/share/diffusion-policy-reproduction/env/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/laobiexl/.local/share/diffusion-policy-reproduction/env/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Diffusion params: 2.515119e+08
+Vision params: 1.119709e+07
+pygame 2.1.2 (SDL 2.0.16, Python 3.10.20)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+
+Eval PushtImageRunner 1/1:   0%|          | 0/300 [00:00<?, ?it/s]
+Eval PushtImageRunner 1/1:   5%|▌         | 16/300 [00:07<02:16,  2.09it/s]
+Eval PushtImageRunner 1/1:  13%|█▎        | 40/300 [00:14<01:31,  2.85it/s]
+Eval PushtImageRunner 1/1:  21%|██▏       | 64/300 [00:20<01:11,  3.32it/s]
+Eval PushtImageRunner 1/1:  29%|██▉       | 88/300 [00:27<01:02,  3.37it/s]
+Eval PushtImageRunner 1/1:  37%|███▋      | 112/300 [00:34<00:55,  3.39it/s]
+Eval PushtImageRunner 1/1:  45%|████▌     | 136/300 [00:42<00:49,  3.34it/s]
+Eval PushtImageRunner 1/1:  53%|█████▎    | 160/300 [00:49<00:42,  3.30it/s]
+Eval PushtImageRunner 1/1:  61%|██████▏   | 184/300 [00:57<00:35,  3.26it/s]
+Eval PushtImageRunner 1/1:  69%|██████▉   | 208/300 [01:04<00:28,  3.26it/s]
+Eval PushtImageRunner 1/1:  77%|███████▋  | 232/300 [01:11<00:20,  3.24it/s]
+Eval PushtImageRunner 1/1:  85%|████████▌ | 256/300 [01:19<00:13,  3.22it/s]
+Eval PushtImageRunner 1/1:  93%|█████████▎| 280/300 [01:27<00:06,  3.19it/s]
+Eval PushtImageRunner 1/1:  99%|█████████▊| 296/300 [01:32<00:01,  3.18it/s]
+
+{
+  "train/mean_score": 0.8012331111632389,
+  "test/mean_score": 0.9188447508779134,
+  "checkpoint_epoch": 500,
+  "recorded_at_utc": "2026-10-16T10:11:16.286944+00:00",
+  "checkpoint_path": "data/checkpoints/official_train_0_epoch0500.ckpt",
+  "random_seed": 42,
+  "parallel_environments": 56,
+  "inference_steps": 100,
+  "evaluation_seconds": 96.625914166,
+  "peak_gpu_allocated_mib": 1136.01416015625,
+  "environment": {
+    "python": "3.10.20",
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5070 Laptop GPU"
+  },
+  "policy_state": "ema_model",
+  "test_episode_count": 50,
+  "metric_definition": "mean across episodes of max_t clip(target_coverage_t / 0.95, 0, 1)"
+}

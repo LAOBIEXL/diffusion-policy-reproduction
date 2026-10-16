@@ -1,0 +1,8 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Looking in links: /home/laobiexl/.local/share/diffusion-policy-reproduction/wheels
+Obtaining file:///mnt/d/%E7%94%B3%E8%AF%B7%E6%9D%90%E6%96%99/Research%20Intern/diffusion-policy-reproduction/third_party/diffusion_policy
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Installing collected packages: diffusion-policy
+  Running setup.py develop for diffusion-policy
+Successfully installed diffusion-policy-0.0.0

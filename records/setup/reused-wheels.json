@@ -1,0 +1,630 @@
+[
+  {
+    "wheel": "nvidia_cufile_cu12-1.13.1.3-py3-none-manylinux2014_x86_64.whl",
+    "bytes": 1197834
+  },
+  {
+    "wheel": "nvidia_nvjitlink_cu12-12.8.93-py3-none-manylinux2010_x86_64.whl",
+    "bytes": 39254836
+  },
+  {
+    "wheel": "webcolors-25.10.0-py3-none-any.whl",
+    "bytes": 14905
+  },
+  {
+    "wheel": "numpy-1.23.5-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 17059657
+  },
+  {
+    "wheel": "pexpect-4.9.0-py3-none-any.whl",
+    "bytes": 63772
+  },
+  {
+    "wheel": "pure_eval-0.2.3-py3-none-any.whl",
+    "bytes": 11842
+  },
+  {
+    "wheel": "QtPy-2.4.3-py3-none-any.whl",
+    "bytes": 95045
+  },
+  {
+    "wheel": "websocket_client-1.9.0-py3-none-any.whl",
+    "bytes": 82616
+  },
+  {
+    "wheel": "fonttools-4.63.0-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 4903184
+  },
+  {
+    "wheel": "matplotlib-3.7.2-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 11576454
+  },
+  {
+    "wheel": "rfc3987_syntax-1.1.0-py3-none-any.whl",
+    "bytes": 8046
+  },
+  {
+    "wheel": "nbformat-5.10.4-py3-none-any.whl",
+    "bytes": 78454
+  },
+  {
+    "wheel": "json5-0.15.0-py3-none-any.whl",
+    "bytes": 36570
+  },
+  {
+    "wheel": "nbconvert-7.17.1-py3-none-any.whl",
+    "bytes": 261927
+  },
+  {
+    "wheel": "psutil-7.2.2-cp36-abi3-manylinux_2_12_x86_64.whl",
+    "bytes": 155560
+  },
+  {
+    "wheel": "qtconsole-5.7.2-py3-none-any.whl",
+    "bytes": 125883
+  },
+  {
+    "wheel": "Pillow-9.5.0-cp310-cp310-manylinux_2_28_x86_64.whl",
+    "bytes": 3415623
+  },
+  {
+    "wheel": "rfc3339_validator-0.1.4-py3-none-any.whl",
+    "bytes": 3490
+  },
+  {
+    "wheel": "attrs-26.1.0-py3-none-any.whl",
+    "bytes": 67548
+  },
+  {
+    "wheel": "defusedxml-0.7.1-py3-none-any.whl",
+    "bytes": 25604
+  },
+  {
+    "wheel": "jupyter_client-8.9.1-py3-none-any.whl",
+    "bytes": 109828
+  },
+  {
+    "wheel": "debugpy-1.8.21-cp310-cp310-manylinux_2_34_x86_64.whl",
+    "bytes": 3004715
+  },
+  {
+    "wheel": "zarr-2.12.0-py3-none-any.whl",
+    "bytes": 185751
+  },
+  {
+    "wheel": "fqdn-1.5.1-py3-none-any.whl",
+    "bytes": 9121
+  },
+  {
+    "wheel": "overrides-7.7.0-py3-none-any.whl",
+    "bytes": 17832
+  },
+  {
+    "wheel": "networkx-3.4.2-py3-none-any.whl",
+    "bytes": 1723263
+  },
+  {
+    "wheel": "jupyterlab_server-2.28.0-py3-none-any.whl",
+    "bytes": 59830
+  },
+  {
+    "wheel": "requests-2.31.0-py3-none-any.whl",
+    "bytes": 62574
+  },
+  {
+    "wheel": "jupyter-1.0.0-py3-none-any.whl",
+    "bytes": 2736
+  },
+  {
+    "wheel": "matplotlib-3.6.1-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 11840372
+  },
+  {
+    "wheel": "fsspec-2026.4.0-py3-none-any.whl",
+    "bytes": 203402
+  },
+  {
+    "wheel": "torch-2.11.0+cu128-cp310-cp310-manylinux_2_28_x86_64.whl",
+    "bytes": 820206653
+  },
+  {
+    "wheel": "numpy-2.2.6-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 16801050
+  },
+  {
+    "wheel": "prometheus_client-0.26.0-py3-none-any.whl",
+    "bytes": 64494
+  },
+  {
+    "wheel": "pandocfilters-1.5.1-py3-none-any.whl",
+    "bytes": 8663
+  },
+  {
+    "wheel": "sympy-1.14.0-py3-none-any.whl",
+    "bytes": 6299353
+  },
+  {
+    "wheel": "matplotlib_inline-0.1.6-py3-none-any.whl",
+    "bytes": 9408
+  },
+  {
+    "wheel": "jedi-0.20.0-py3-none-any.whl",
+    "bytes": 4884812
+  },
+  {
+    "wheel": "jupyter_builder-1.1.1-py3-none-any.whl",
+    "bytes": 913264
+  },
+  {
+    "wheel": "cffi-2.1.0-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 218760
+  },
+  {
+    "wheel": "referencing-0.37.0-py3-none-any.whl",
+    "bytes": 26766
+  },
+  {
+    "wheel": "jupyterlab-4.6.2-py3-none-any.whl",
+    "bytes": 17166703
+  },
+  {
+    "wheel": "pycparser-3.0-py3-none-any.whl",
+    "bytes": 48172
+  },
+  {
+    "wheel": "jupyterlab_pygments-0.3.0-py3-none-any.whl",
+    "bytes": 15884
+  },
+  {
+    "wheel": "jupyter_lsp-2.3.1-py3-none-any.whl",
+    "bytes": 77513
+  },
+  {
+    "wheel": "beautifulsoup4-4.15.0-py3-none-any.whl",
+    "bytes": 109924
+  },
+  {
+    "wheel": "pandas-2.0.3-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 12306421
+  },
+  {
+    "wheel": "nvidia_cufft_cu12-11.3.3.83-py3-none-manylinux2014_x86_64.whl",
+    "bytes": 193118695
+  },
+  {
+    "wheel": "lark-1.3.1-py3-none-any.whl",
+    "bytes": 113151
+  },
+  {
+    "wheel": "filelock-3.29.0-py3-none-any.whl",
+    "bytes": 39812
+  },
+  {
+    "wheel": "dill-0.3.5.1-py3-none-any.whl",
+    "bytes": 95827
+  },
+  {
+    "wheel": "nvidia_cublas_cu12-12.8.4.1-py3-none-manylinux_2_27_x86_64.whl",
+    "bytes": 594346921
+  },
+  {
+    "wheel": "cuda_pathfinder-1.2.2-py3-none-any.whl",
+    "bytes": 23129
+  },
+  {
+    "wheel": "six-1.17.0-py3-none-any.whl",
+    "bytes": 11050
+  },
+  {
+    "wheel": "Jinja2-3.1.6-py3-none-any.whl",
+    "bytes": 134899
+  },
+  {
+    "wheel": "jupyterlab_widgets-3.0.16-py3-none-any.whl",
+    "bytes": 914926
+  },
+  {
+    "wheel": "certifi-2026.7.22-py3-none-any.whl",
+    "bytes": 136983
+  },
+  {
+    "wheel": "contourpy-1.3.2-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 325027
+  },
+  {
+    "wheel": "terminado-0.18.1-py3-none-any.whl",
+    "bytes": 14154
+  },
+  {
+    "wheel": "tzdata-2026.3-py3-none-any.whl",
+    "bytes": 348168
+  },
+  {
+    "wheel": "MarkupSafe-3.0.3-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 20681
+  },
+  {
+    "wheel": "async_lru-2.3.0-py3-none-any.whl",
+    "bytes": 8403
+  },
+  {
+    "wheel": "webencodings-0.5.1-py3-none-any.whl",
+    "bytes": 11774
+  },
+  {
+    "wheel": "pyzmq-27.1.0-cp310-cp310-manylinux_2_26_x86_64.whl",
+    "bytes": 854149
+  },
+  {
+    "wheel": "asttokens-3.0.2-py3-none-any.whl",
+    "bytes": 28702
+  },
+  {
+    "wheel": "isoduration-20.11.0-py3-none-any.whl",
+    "bytes": 11321
+  },
+  {
+    "wheel": "prompt_toolkit-3.0.52-py3-none-any.whl",
+    "bytes": 391431
+  },
+  {
+    "wheel": "fastjsonschema-2.22.0-py3-none-any.whl",
+    "bytes": 26248
+  },
+  {
+    "wheel": "tornado-6.5.7-cp39-abi3-manylinux_2_5_x86_64.whl",
+    "bytes": 449774
+  },
+  {
+    "wheel": "hydra_core-1.2.0-py3-none-any.whl",
+    "bytes": 151068
+  },
+  {
+    "wheel": "httpx-0.28.1-py3-none-any.whl",
+    "bytes": 73517
+  },
+  {
+    "wheel": "nbclient-0.11.0-py3-none-any.whl",
+    "bytes": 25288
+  },
+  {
+    "wheel": "torchaudio-2.11.0+cu128-cp310-cp310-manylinux_2_28_x86_64.whl",
+    "bytes": 1684267
+  },
+  {
+    "wheel": "nvidia_nvtx_cu12-12.8.90-py3-none-manylinux2014_x86_64.whl",
+    "bytes": 89954
+  },
+  {
+    "wheel": "jsonschema-4.26.0-py3-none-any.whl",
+    "bytes": 90630
+  },
+  {
+    "wheel": "tqdm-4.64.1-py3-none-any.whl",
+    "bytes": 78468
+  },
+  {
+    "wheel": "idna-3.18-py3-none-any.whl",
+    "bytes": 65455
+  },
+  {
+    "wheel": "jsonpointer-3.1.1-py3-none-any.whl",
+    "bytes": 7659
+  },
+  {
+    "wheel": "pytz-2026.3.post1-py3-none-any.whl",
+    "bytes": 508283
+  },
+  {
+    "wheel": "numcodecs-0.10.2-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 6685467
+  },
+  {
+    "wheel": "httpcore-1.0.9-py3-none-any.whl",
+    "bytes": 78784
+  },
+  {
+    "wheel": "d2l-1.0.3-py3-none-any.whl",
+    "bytes": 111696
+  },
+  {
+    "wheel": "h5py-3.7.0-cp310-cp310-manylinux_2_12_x86_64.whl",
+    "bytes": 4463873
+  },
+  {
+    "wheel": "soupsieve-2.9.1-py3-none-any.whl",
+    "bytes": 37404
+  },
+  {
+    "wheel": "jupyter_events-0.12.1-py3-none-any.whl",
+    "bytes": 19512
+  },
+  {
+    "wheel": "nvidia_cusparse_cu12-12.5.8.93-py3-none-manylinux2014_x86_64.whl",
+    "bytes": 288216466
+  },
+  {
+    "wheel": "tinycss2-1.5.1-py3-none-any.whl",
+    "bytes": 28404
+  },
+  {
+    "wheel": "jupyter_server_terminals-0.5.4-py3-none-any.whl",
+    "bytes": 13704
+  },
+  {
+    "wheel": "comm-0.2.3-py3-none-any.whl",
+    "bytes": 7294
+  },
+  {
+    "wheel": "rpds_py-0.30.0-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 390522
+  },
+  {
+    "wheel": "nvidia_curand_cu12-10.3.9.90-py3-none-manylinux_2_27_x86_64.whl",
+    "bytes": 63619976
+  },
+  {
+    "wheel": "nvidia_cusparselt_cu12-0.7.1-py3-none-manylinux2014_x86_64.whl",
+    "bytes": 287193691
+  },
+  {
+    "wheel": "Pygments-2.20.0-py3-none-any.whl",
+    "bytes": 1231151
+  },
+  {
+    "wheel": "argon2_cffi_bindings-25.1.0-cp39-abi3-manylinux_2_26_x86_64.whl",
+    "bytes": 87126
+  },
+  {
+    "wheel": "anyio-4.14.2-py3-none-any.whl",
+    "bytes": 125813
+  },
+  {
+    "wheel": "python_dateutil-2.9.0.post0-py3-none-any.whl",
+    "bytes": 229892
+  },
+  {
+    "wheel": "rfc3986_validator-0.1.1-py3-none-any.whl",
+    "bytes": 4242
+  },
+  {
+    "wheel": "ipykernel-7.3.0-py3-none-any.whl",
+    "bytes": 120583
+  },
+  {
+    "wheel": "exceptiongroup-1.3.1-py3-none-any.whl",
+    "bytes": 16740
+  },
+  {
+    "wheel": "stack_data-0.6.3-py3-none-any.whl",
+    "bytes": 24521
+  },
+  {
+    "wheel": "decorator-5.3.1-py3-none-any.whl",
+    "bytes": 10365
+  },
+  {
+    "wheel": "triton-3.6.0-cp310-cp310-manylinux_2_27_x86_64.whl",
+    "bytes": 188103592
+  },
+  {
+    "wheel": "ipython_pygments_lexers-1.1.1-py3-none-any.whl",
+    "bytes": 8074
+  },
+  {
+    "wheel": "notebook-7.6.1-py3-none-any.whl",
+    "bytes": 5546368
+  },
+  {
+    "wheel": "nvidia_nccl_cu12-2.28.9-py3-none-manylinux_2_18_x86_64.whl",
+    "bytes": 296782137
+  },
+  {
+    "wheel": "Send2Trash-2.1.0-py3-none-any.whl",
+    "bytes": 17610
+  },
+  {
+    "wheel": "urllib3-2.7.0-py3-none-any.whl",
+    "bytes": 131087
+  },
+  {
+    "wheel": "pillow-12.2.0-cp310-cp310-manylinux_2_27_x86_64.whl",
+    "bytes": 7070220
+  },
+  {
+    "wheel": "PyYAML-6.0.3-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 770293
+  },
+  {
+    "wheel": "parso-0.8.7-py3-none-any.whl",
+    "bytes": 107025
+  },
+  {
+    "wheel": "mistune-3.3.4-py3-none-any.whl",
+    "bytes": 66862
+  },
+  {
+    "wheel": "jsonschema_specifications-2025.9.1-py3-none-any.whl",
+    "bytes": 18437
+  },
+  {
+    "wheel": "ipython-8.39.0-py3-none-any.whl",
+    "bytes": 831849
+  },
+  {
+    "wheel": "executing-2.2.1-py3-none-any.whl",
+    "bytes": 28317
+  },
+  {
+    "wheel": "platformdirs-4.11.0-py3-none-any.whl",
+    "bytes": 23247
+  },
+  {
+    "wheel": "nvidia_cuda_runtime_cu12-12.8.90-py3-none-manylinux2014_x86_64.whl",
+    "bytes": 954765
+  },
+  {
+    "wheel": "nvidia_nvshmem_cu12-3.4.5-py3-none-manylinux2014_x86_64.whl",
+    "bytes": 139103095
+  },
+  {
+    "wheel": "arrow-1.4.0-py3-none-any.whl",
+    "bytes": 68797
+  },
+  {
+    "wheel": "opencv_python_headless-4.6.0.66-cp36-abi3-manylinux_2_17_x86_64.whl",
+    "bytes": 48266525
+  },
+  {
+    "wheel": "python_json_logger-4.1.0-py3-none-any.whl",
+    "bytes": 15021
+  },
+  {
+    "wheel": "cuda_toolkit-12.8.1-py3-none-any.whl",
+    "bytes": 2283
+  },
+  {
+    "wheel": "einops-0.4.1-py3-none-any.whl",
+    "bytes": 28197
+  },
+  {
+    "wheel": "h11-0.16.0-py3-none-any.whl",
+    "bytes": 37515
+  },
+  {
+    "wheel": "traitlets-5.15.1-py3-none-any.whl",
+    "bytes": 85858
+  },
+  {
+    "wheel": "mpmath-1.3.0-py3-none-any.whl",
+    "bytes": 536198
+  },
+  {
+    "wheel": "wcwidth-0.8.2-py3-none-any.whl",
+    "bytes": 323166
+  },
+  {
+    "wheel": "nvidia_cuda_nvrtc_cu12-12.8.93-py3-none-manylinux2010_x86_64.whl",
+    "bytes": 88040029
+  },
+  {
+    "wheel": "omegaconf-2.2.3-py3-none-any.whl",
+    "bytes": 79285
+  },
+  {
+    "wheel": "nvidia_cuda_cupti_cu12-12.8.90-py3-none-manylinux2014_x86_64.whl",
+    "bytes": 10248621
+  },
+  {
+    "wheel": "charset_normalizer-3.4.9-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 223817
+  },
+  {
+    "wheel": "nvidia_cudnn_cu12-9.19.0.56-py3-none-manylinux_2_27_x86_64.whl",
+    "bytes": 657906812
+  },
+  {
+    "wheel": "argon2_cffi-25.1.0-py3-none-any.whl",
+    "bytes": 14657
+  },
+  {
+    "wheel": "jupyter_console-6.6.3-py3-none-any.whl",
+    "bytes": 24510
+  },
+  {
+    "wheel": "kiwisolver-1.5.0-cp310-cp310-manylinux_2_12_x86_64.whl",
+    "bytes": 1628776
+  },
+  {
+    "wheel": "scipy-1.9.1-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 43903805
+  },
+  {
+    "wheel": "networkx-2.8.8-py3-none-any.whl",
+    "bytes": 2025192
+  },
+  {
+    "wheel": "torchvision-0.26.0+cu128-cp310-cp310-manylinux_2_28_x86_64.whl",
+    "bytes": 8053474
+  },
+  {
+    "wheel": "jupyter_core-5.9.1-py3-none-any.whl",
+    "bytes": 29032
+  },
+  {
+    "wheel": "numba-0.56.4-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 3489422
+  },
+  {
+    "wheel": "ptyprocess-0.7.0-py3-none-any.whl",
+    "bytes": 13993
+  },
+  {
+    "wheel": "babel-2.18.0-py3-none-any.whl",
+    "bytes": 10196845
+  },
+  {
+    "wheel": "jupyter_server-2.20.0-py3-none-any.whl",
+    "bytes": 393143
+  },
+  {
+    "wheel": "notebook_shim-0.2.4-py3-none-any.whl",
+    "bytes": 13307
+  },
+  {
+    "wheel": "cycler-0.12.1-py3-none-any.whl",
+    "bytes": 8321
+  },
+  {
+    "wheel": "scipy-1.10.1-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 34422544
+  },
+  {
+    "wheel": "ipywidgets-8.1.8-py3-none-any.whl",
+    "bytes": 139808
+  },
+  {
+    "wheel": "nvidia_cusolver_cu12-11.7.3.90-py3-none-manylinux_2_27_x86_64.whl",
+    "bytes": 267506905
+  },
+  {
+    "wheel": "bleach-6.4.0-py3-none-any.whl",
+    "bytes": 165109
+  },
+  {
+    "wheel": "nest_asyncio2-1.7.2-py3-none-any.whl",
+    "bytes": 7843
+  },
+  {
+    "wheel": "tomli-2.4.1-py3-none-any.whl",
+    "bytes": 14583
+  },
+  {
+    "wheel": "setuptools-78.1.0-py3-none-any.whl",
+    "bytes": 1256108
+  },
+  {
+    "wheel": "widgetsnbextension-4.0.15-py3-none-any.whl",
+    "bytes": 2196503
+  },
+  {
+    "wheel": "uri_template-1.3.0-py3-none-any.whl",
+    "bytes": 11140
+  },
+  {
+    "wheel": "typing_extensions-4.15.0-py3-none-any.whl",
+    "bytes": 44614
+  },
+  {
+    "wheel": "scikit_video-1.1.11-py3-none-any.whl",
+    "bytes": 2255186
+  },
+  {
+    "wheel": "pyparsing-3.0.9-py3-none-any.whl",
+    "bytes": 98338
+  },
+  {
+    "wheel": "cuda_bindings-12.9.4-cp310-cp310-manylinux_2_24_x86_64.whl",
+    "bytes": 12148218
+  }
+]

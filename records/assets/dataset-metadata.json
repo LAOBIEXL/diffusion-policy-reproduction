@@ -1,0 +1,76 @@
+{
+  "meta/episode_ends": {
+    "shape": [
+      206
+    ],
+    "dtype": "<i8",
+    "chunks": [
+      208
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "zstd",
+      "id": "blosc",
+      "shuffle": 2
+    }
+  },
+  "data/img": {
+    "shape": [
+      25650,
+      96,
+      96,
+      3
+    ],
+    "dtype": "<f4",
+    "chunks": [
+      161,
+      96,
+      96,
+      3
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "zstd",
+      "id": "blosc",
+      "shuffle": 2
+    }
+  },
+  "data/state": {
+    "shape": [
+      25650,
+      5
+    ],
+    "dtype": "<f4",
+    "chunks": [
+      161,
+      5
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "zstd",
+      "id": "blosc",
+      "shuffle": 2
+    }
+  },
+  "data/action": {
+    "shape": [
+      25650,
+      2
+    ],
+    "dtype": "<f4",
+    "chunks": [
+      161,
+      2
+    ],
+    "compressor": {
+      "blocksize": 0,
+      "clevel": 5,
+      "cname": "zstd",
+      "id": "blosc",
+      "shuffle": 2
+    }
+  }
+}

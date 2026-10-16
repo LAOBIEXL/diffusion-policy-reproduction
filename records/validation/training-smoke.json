@@ -1,0 +1,22 @@
+{
+  "kind": "training_pipeline_check",
+  "optimizer_steps": 3,
+  "effective_batch_size": 64,
+  "precision": "fp32",
+  "architecture_unchanged": true,
+  "test_episodes": 2,
+  "max_environment_steps": 16,
+  "checkpoint_bytes": 4293296643,
+  "metrics": {
+    "train_loss": 1.1875907182693481,
+    "global_step": 2,
+    "epoch": 0,
+    "lr": 6.000000000000001e-07,
+    "test/sim_max_reward_100000": 0.473876871333384,
+    "test/sim_max_reward_100001": 0.27729977617179385,
+    "test/mean_score": 0.37558832375258894,
+    "val_loss": 1.1129233837127686,
+    "train_action_mse_error": 53220.0625
+  },
+  "status": "completed"
+}

@@ -1,0 +1,10 @@
+{
+  "gradient_accumulation": "passed, including a partial final microbatch",
+  "full_batch_loss": 0.5797622799873352,
+  "accumulated_loss": 0.5797622680664063,
+  "gradient_max_absolute_error": 8.940696716308594e-08,
+  "cpu_ema": "passed against upstream GPU EMA for 8 updates",
+  "ema_max_absolute_error": 0.0,
+  "ema_optimization_step": 8,
+  "ema_decay": 0.7676319197574591
+}

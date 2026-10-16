@@ -1,0 +1,9 @@
+{
+  "name": "dataset",
+  "url": "https://diffusion-policy.cs.columbia.edu/data/training/pusht.zip",
+  "path": "data/downloads/pusht.zip",
+  "bytes": 30988725,
+  "expected_bytes": 30988725,
+  "sha256": "63d52a114a3f010861f0181309d165b7d69133ccae426ece2fc94caed147bdf9",
+  "recorded_at_utc": "2026-10-16T09:27:27.030132+00:00"
+}

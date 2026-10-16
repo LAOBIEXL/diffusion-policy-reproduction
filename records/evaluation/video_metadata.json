@@ -1,0 +1,34 @@
+[
+  {
+    "file": "seed4300000.mp4",
+    "codec": "h264",
+    "width": 96,
+    "height": 96,
+    "fps": 10.0,
+    "decoded_frames": 300
+  },
+  {
+    "file": "seed4300001.mp4",
+    "codec": "h264",
+    "width": 96,
+    "height": 96,
+    "fps": 10.0,
+    "decoded_frames": 296
+  },
+  {
+    "file": "seed4300002.mp4",
+    "codec": "h264",
+    "width": 96,
+    "height": 96,
+    "fps": 10.0,
+    "decoded_frames": 125
+  },
+  {
+    "file": "seed4300003.mp4",
+    "codec": "h264",
+    "width": 96,
+    "height": 96,
+    "fps": 10.0,
+    "decoded_frames": 175
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "name": "train_log",
+  "url": "https://diffusion-policy.cs.columbia.edu/data/experiments/image/pusht/diffusion_policy_cnn/train_0/logs.json.txt",
+  "path": "data/reference/train_0.logs.jsonl",
+  "bytes": 53630393,
+  "expected_bytes": 53630393,
+  "sha256": "0433f98bdbadea2edb2b209acf8c38933c20b8094c7584e6060e2376eaae346f",
+  "recorded_at_utc": "2026-10-16T09:34:28.085228+00:00"
+}

@@ -1,0 +1,10 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Looking in links: /home/laobiexl/.local/share/diffusion-policy-reproduction/wheels
+Requirement already satisfied: pip==23.3.2 in /home/laobiexl/.local/share/diffusion-policy-reproduction/env/lib/python3.10/site-packages (23.3.2)
+Requirement already satisfied: setuptools==65.5.0 in /home/laobiexl/.local/share/diffusion-policy-reproduction/env/lib/python3.10/site-packages (65.5.0)
+Requirement already satisfied: wheel==0.38.4 in /home/laobiexl/.local/share/diffusion-policy-reproduction/env/lib/python3.10/site-packages (0.38.4)
+Collecting cmake==3.24.3
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/25/e0/1ba4a2c2ae83996c456250146cefa32e1fcbfb76446c2ba9d8aa42514b4a/cmake-3.24.3-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (23.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 23.3/23.3 MB 8.2 MB/s eta 0:00:00
+Installing collected packages: cmake
+Successfully installed cmake-3.24.3

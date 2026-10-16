@@ -1,0 +1,58 @@
+{
+  "recorded_at": "2026-10-16T17:10:00.6994639+08:00",
+  "os": {
+    "Caption": "Microsoft Windows 11 家庭版 中文版",
+    "Version": "10.0.26200",
+    "OSArchitecture": "64 位",
+    "TotalVisibleMemorySize": 32817692,
+    "FreePhysicalMemory": 14510524
+  },
+  "cpu": {
+    "Name": "AMD Ryzen 9 8945HX with Radeon Graphics        ",
+    "NumberOfCores": 16,
+    "NumberOfLogicalProcessors": 32
+  },
+  "gpu": [
+    "name, memory.total [MiB], memory.free [MiB], driver_version",
+    "NVIDIA GeForce RTX 5070 Laptop GPU, 8151 MiB, 5124 MiB, 582.05"
+  ],
+  "disks": [
+    {
+      "Name": "C",
+      "Used": 421799366656,
+      "Free": 7698407424
+    },
+    {
+      "Name": "D",
+      "Used": 526378680320,
+      "Free": 65945120768
+    },
+    {
+      "Name": "Temp",
+      "Used": 421799366656,
+      "Free": 7698407424
+    }
+  ],
+  "commands": [
+    {
+      "Name": "git.exe",
+      "Source": "C:\\Program Files\\Git\\cmd\\git.exe"
+    },
+    {
+      "Name": "python.exe",
+      "Source": "C:\\Users\\LAOBIEXL\\AppData\\Local\\Programs\\Python\\Python310\\python.exe"
+    },
+    {
+      "Name": "docker.exe",
+      "Source": "C:\\Program Files\\Docker\\Docker\\resources\\bin\\docker.exe"
+    },
+    {
+      "Name": "wsl.exe",
+      "Source": "C:\\Windows\\system32\\wsl.exe"
+    },
+    {
+      "Name": "nvidia-smi.exe",
+      "Source": "C:\\Windows\\system32\\nvidia-smi.exe"
+    }
+  ]
+}

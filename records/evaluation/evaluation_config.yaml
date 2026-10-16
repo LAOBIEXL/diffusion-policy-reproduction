@@ -1,0 +1,14 @@
+_target_: diffusion_policy.env_runner.pusht_image_runner.PushTImageRunner
+n_train: 6
+n_train_vis: 2
+train_start_seed: 0
+n_test: 50
+n_test_vis: 4
+legacy_test: true
+test_start_seed: 4300000
+max_steps: 300
+n_obs_steps: 2
+n_action_steps: 8
+fps: 10
+past_action: false
+n_envs: null

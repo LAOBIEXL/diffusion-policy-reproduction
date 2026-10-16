@@ -1,0 +1,43 @@
+
+============= Initialized Observation Utils with Obs Spec =============
+
+using obs modality: low_dim with keys: ['agent_pos']
+using obs modality: rgb with keys: ['image']
+using obs modality: depth with keys: []
+using obs modality: scan with keys: []
+/home/laobiexl/.local/share/diffusion-policy-reproduction/env/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/laobiexl/.local/share/diffusion-policy-reproduction/env/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Diffusion params: 2.515119e+08
+Vision params: 1.119709e+07
+step=0 loss=1.185513 seconds=12.718
+step=1 loss=5.814833 seconds=3.925
+{
+  "kind": "training_resource_benchmark_not_reproduction_result",
+  "settings": {
+    "batch_size": 64,
+    "microbatch_size": 64,
+    "precision": "fp32",
+    "ema_device": "cuda",
+    "steps": 2,
+    "output": "runs/benchmark-fp32-b64"
+  },
+  "train_windows": 10726,
+  "optimizer_steps_per_epoch": 168,
+  "optimizer_step_seconds": [
+    12.718288153999993,
+    3.925065168999936
+  ],
+  "losses": [
+    1.1855127811431885,
+    5.81483268737793
+  ],
+  "peak_gpu_allocated_mib": 5552.89013671875,
+  "peak_gpu_reserved_mib": 5784.0,
+  "torch": "2.11.0+cu128",
+  "gpu": "NVIDIA GeForce RTX 5070 Laptop GPU",
+  "ema_device": "cuda",
+  "tf32_matmul": false,
+  "tf32_cudnn": true
+}

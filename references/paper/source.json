@@ -1,0 +1,39 @@
+{
+  "title": "Diffusion Policy: Visuomotor Policy Learning via Action Diffusion",
+  "authors_as_listed_in_rss_bibtex": [
+    "Cheng Chi",
+    "Siyuan Feng",
+    "Yilun Du",
+    "Zhenjia Xu",
+    "Eric Cousineau",
+    "Benjamin CM Burchfiel",
+    "Shuran Song"
+  ],
+  "venue": "Proceedings of Robotics: Science and Systems",
+  "year": 2023,
+  "doi": "10.15607/RSS.2023.XIX.026",
+  "paper_page": "https://roboticsproceedings.org/rss19/p026.html",
+  "download_url": "https://www.roboticsproceedings.org/rss19/p026.pdf",
+  "project_page": "https://diffusion-policy.cs.columbia.edu/",
+  "corresponding_arxiv_version": "2303.04137v4",
+  "corresponding_arxiv_page": "https://arxiv.org/abs/2303.04137v4",
+  "version_mapping_evidence": "The author project page explicitly links RSS 2023 to arXiv v4, and the extended IJRR version to v5.",
+  "official_code_repository": "https://github.com/real-stanford/diffusion_policy",
+  "downloaded_at": "2026-10-16T16:40:51.769553+08:00",
+  "download_timezone": "Asia/Shanghai",
+  "filename": "Diffusion_Policy_RSS_2023.pdf",
+  "size_bytes": 5811288,
+  "sha256": "723a030b809be1958d03b06472ac79934fd64e5a890cdfeffd9508a353101a25",
+  "validation": {
+    "pdf_header": "%PDF-1.5",
+    "page_count": 16,
+    "contains_appendix": true,
+    "all_pages_text_extracted": true,
+    "first_page_title_authors_and_venue_checked": true,
+    "first_page_render_visually_checked": true,
+    "publisher_pdf_bytes_preserved": true,
+    "extractor_warning": "pypdf reported malformed numeric operands in some publisher PDF graphics; the source file was preserved unchanged and the title page was rendered with Poppler."
+  },
+  "repository_name": "diffusion-policy-reproduction",
+  "verification_status": "Paper acquisition and version verification completed."
+}

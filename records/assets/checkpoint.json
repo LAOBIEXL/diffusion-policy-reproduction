@@ -1,0 +1,9 @@
+{
+  "name": "checkpoint",
+  "url": "https://diffusion-policy.cs.columbia.edu/data/experiments/image/pusht/diffusion_policy_cnn/train_0/checkpoints/epoch=0500-test_mean_score=0.884.ckpt",
+  "path": "data/checkpoints/official_train_0_epoch0500.ckpt",
+  "bytes": 4293295813,
+  "expected_bytes": 4293295813,
+  "sha256": "bac7221f7e34cd51162dc1972e1a39ffcddc87de1dc1780c44ffa61b88c4ff76",
+  "recorded_at_utc": "2026-10-16T10:09:12.797906+00:00"
+}

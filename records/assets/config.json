@@ -1,0 +1,8 @@
+{
+  "name": "config",
+  "url": "https://diffusion-policy.cs.columbia.edu/data/experiments/image/pusht/diffusion_policy_cnn/config.yaml",
+  "path": "references/official/config.yaml",
+  "bytes": 3743,
+  "sha256": "a335ac5d4fda88ef53b4c04788b58966e2a72c7540abb5465a22d4edac2e6f9b",
+  "recorded_at_utc": "2026-10-16T09:11:57.252461+00:00"
+}
