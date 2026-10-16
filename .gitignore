@@ -11,3 +11,7 @@ __pycache__/
 *.pth
 *.zip
 .env
+artifacts/
+*.tar
+*.tar.gz
+*.whl

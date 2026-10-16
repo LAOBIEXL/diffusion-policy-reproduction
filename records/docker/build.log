@@ -1,0 +1,72 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 1.96kB 0.0s done
+#1 DONE 0.0s
+
+#2 resolve image config for docker-image://docker.io/docker/dockerfile:1@sha256:4edf897a3ffa55b89f906fc8cc78afdb3f1834cc9c7083565e611a8a7d5fe99e
+#2 DONE 0.0s
+
+#3 docker-image://docker.io/docker/dockerfile:1@sha256:4edf897a3ffa55b89f906fc8cc78afdb3f1834cc9c7083565e611a8a7d5fe99e
+#3 resolve docker.io/docker/dockerfile:1@sha256:4edf897a3ffa55b89f906fc8cc78afdb3f1834cc9c7083565e611a8a7d5fe99e 0.0s done
+#3 CACHED
+
+#4 [internal] load metadata for docker.io/library/python:3.10.20-slim-bookworm@sha256:6dafe336b64dbf76f7ec872d07e58b5c7de0e2ea5d4c0853a05c3b6be3278b00
+#4 DONE 0.0s
+
+#5 [context wheels] load .dockerignore
+#5 transferring wheels: 2B done
+#5 DONE 0.0s
+
+#6 [internal] load .dockerignore
+#6 transferring context: 246B 0.0s done
+#6 DONE 0.0s
+
+#7 [runtime 1/8] FROM docker.io/library/python:3.10.20-slim-bookworm@sha256:6dafe336b64dbf76f7ec872d07e58b5c7de0e2ea5d4c0853a05c3b6be3278b00
+#7 resolve docker.io/library/python:3.10.20-slim-bookworm@sha256:6dafe336b64dbf76f7ec872d07e58b5c7de0e2ea5d4c0853a05c3b6be3278b00 0.0s done
+#7 DONE 0.0s
+
+#8 [context wheels] load from client
+#8 transferring wheels: 7.62kB done
+#8 DONE 0.0s
+
+#9 [internal] load build context
+#9 transferring context: 475.73MB 5.0s
+#9 transferring context: 995.98MB 10.2s
+#9 transferring context: 1.10GB 11.1s done
+#9 DONE 11.1s
+
+#10 [runtime 7/8] RUN pip install --no-cache-dir --no-build-isolation --no-deps -e third_party/diffusion_policy
+#10 CACHED
+
+#11 [runtime 8/8] COPY scripts/ scripts/
+#11 CACHED
+
+#12 [runtime 2/8] RUN sed -i "s|http://deb.debian.org|https://mirrors.tuna.tsinghua.edu.cn|g" /etc/apt/sources.list.d/debian.sources &&     apt-get update && apt-get install -y --no-install-recommends     build-essential git libegl1 libgl1 libglib2.0-0 libgomp1
+#12 CACHED
+
+#13 [runtime 3/8] WORKDIR /opt/diffusion-policy
+#13 CACHED
+
+#14 [runtime 6/8] COPY third_party/diffusion_policy/ third_party/diffusion_policy/
+#14 CACHED
+
+#15 [runtime 5/8] RUN --mount=type=bind,from=wheels,source=/,target=/wheels     pip install --no-cache-dir --find-links=/wheels pip==23.3.2 setuptools==65.5.0 wheel==0.38.4 cmake==3.24.3 &&     pip install --no-cache-dir --no-build-isolation --find-links=/wheels -r /tmp/requirements.lock.txt &&     pip check
+#15 CACHED
+
+#16 [runtime 4/8] COPY docker/requirements.lock.txt /tmp/requirements.lock.txt
+#16 CACHED
+
+#17 [evaluation 1/1] COPY data/docker/ data/docker/
+#17 CACHED
+
+#18 exporting to image
+#18 exporting layers done
+#18 exporting manifest sha256:07cbc0e470ee5bdf15901a05a0b60a09cff763691c8c5f420c2034f8d1d65c56 done
+#18 exporting config sha256:3f2c6eb78dcff23492b7dad1a46620e3ea142b613147606b5113224f61752392 done
+#18 exporting attestation manifest sha256:1ba960ce265370df23d0b56b63de126a38c291be7a54591c93978674ba9b7af8 0.0s done
+#18 exporting manifest list sha256:8a85744c7f007d6ec167ebd0161bfc243c2451f119852df6f2affa8c7454b74c 0.0s done
+#18 naming to docker.io/laobiexl/diffusion-policy-reproduction:pusht-epoch0500 done
+#18 unpacking to docker.io/laobiexl/diffusion-policy-reproduction:pusht-epoch0500
+#18 unpacking to docker.io/laobiexl/diffusion-policy-reproduction:pusht-epoch0500 54.5s done
+#18 DONE 54.8s

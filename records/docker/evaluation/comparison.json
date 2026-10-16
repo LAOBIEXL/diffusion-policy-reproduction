@@ -1,0 +1,20 @@
+{
+  "checkpoint_epoch": 500,
+  "test_episodes": 50,
+  "test_seed_start": 4300000,
+  "test_seed_end": 4300049,
+  "official_mean_score": 0.8835836184400558,
+  "reproduction_mean_score": 0.9188447508779135,
+  "mean_difference": 0.03526113243785767,
+  "paired_mean_absolute_difference": 0.08466380572879319,
+  "evaluation_seconds": 92.37631249000003,
+  "peak_gpu_allocated_mib": 1136.01416015625,
+  "environment": {
+    "python": "3.10.20",
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5070 Laptop GPU"
+  },
+  "reference_log": "/opt/diffusion-policy/data/docker/reference.jsonl",
+  "evaluation_log": "/output/eval_log.json"
+}

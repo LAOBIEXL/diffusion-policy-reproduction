@@ -1,0 +1,15 @@
+**
+!Dockerfile
+!docker/
+!docker/**
+!scripts/
+!scripts/**
+!third_party/
+!third_party/diffusion_policy/
+!third_party/diffusion_policy/**
+!data/
+!data/docker/
+!data/docker/**
+**/.git
+**/__pycache__
+**/*.pyc

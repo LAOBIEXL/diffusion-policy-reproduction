@@ -1,0 +1,12 @@
+{
+  "source_checkpoint_sha256": "bac7221f7e34cd51162dc1972e1a39ffcddc87de1dc1780c44ffa61b88c4ff76",
+  "checkpoint_epoch": 500,
+  "policy_state": "ema_model",
+  "exported_checkpoint_sha256": "a694a6542983587fba8dcd9cf4c504600f6456f07f55ed36c7dc69dbf1b3ebca",
+  "exported_checkpoint_bytes": 1095732071,
+  "state_dict_entries": 300,
+  "tensor_elements": 273902022,
+  "all_tensors_equal": true,
+  "reference_sha256": "53031fc91c9bc15d4f5a972d2cd8c8263c301338c9ffa6de9c6af73e222d5414",
+  "official_mean_score": 0.8835836184400558
+}

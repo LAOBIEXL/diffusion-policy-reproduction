@@ -1,0 +1,11 @@
+{
+  "python_base": "python:3.10.20-slim-bookworm@sha256:6dafe336b64dbf76f7ec872d07e58b5c7de0e2ea5d4c0853a05c3b6be3278b00",
+  "platform": "linux/amd64",
+  "upstream_commit": "5ba07ac6661db573af695b419a7947ecb704690f",
+  "engine": "29.4.0",
+  "shared_memory": "1g",
+  "docker_desktop": "Docker Desktop 4.69.0 (224084)",
+  "network_mode": "none",
+  "gpu_request": "all",
+  "kernel": "6.6.87.2-microsoft-standard-WSL2"
+}

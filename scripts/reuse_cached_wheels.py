@@ -32,6 +32,12 @@ for cached in cache.rglob("*.body"):
         os.link(cached, destination)
     records.append({"wheel": filename, "bytes": cached.stat().st_size})
 
+for cached in (Path.home() / ".cache/pip/wheels").rglob("*.whl"):
+    destination = wheelhouse / cached.name
+    if not destination.exists():
+        os.link(cached, destination)
+    records.append({"wheel": cached.name, "bytes": cached.stat().st_size})
+
 root = Path(__file__).resolve().parents[1]
 output = root / "records/setup/reused-wheels.json"
 output.parent.mkdir(parents=True, exist_ok=True)

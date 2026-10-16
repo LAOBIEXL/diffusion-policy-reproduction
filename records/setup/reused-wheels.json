@@ -8,8 +8,20 @@
     "bytes": 39254836
   },
   {
+    "wheel": "imageio-2.22.0-py3-none-any.whl",
+    "bytes": 3363124
+  },
+  {
     "wheel": "webcolors-25.10.0-py3-none-any.whl",
     "bytes": 14905
+  },
+  {
+    "wheel": "google_auth-2.62.0-py3-none-any.whl",
+    "bytes": 267911
+  },
+  {
+    "wheel": "kiwisolver-1.5.1-cp310-cp310-manylinux_2_12_x86_64.whl",
+    "bytes": 1628782
   },
   {
     "wheel": "numpy-1.23.5-cp310-cp310-manylinux_2_17_x86_64.whl",
@@ -18,6 +30,10 @@
   {
     "wheel": "pexpect-4.9.0-py3-none-any.whl",
     "bytes": 63772
+  },
+  {
+    "wheel": "grpcio-1.84.0-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 7186279
   },
   {
     "wheel": "pure_eval-0.2.3-py3-none-any.whl",
@@ -30,6 +46,18 @@
   {
     "wheel": "websocket_client-1.9.0-py3-none-any.whl",
     "bytes": 82616
+  },
+  {
+    "wheel": "termcolor-2.0.1-py3-none-any.whl",
+    "bytes": 5425
+  },
+  {
+    "wheel": "certifi-2026.7.22-py3-none-any.whl",
+    "bytes": 136983
+  },
+  {
+    "wheel": "h5py-3.7.0-cp310-cp310-manylinux_2_12_x86_64.whl",
+    "bytes": 4463873
   },
   {
     "wheel": "fonttools-4.63.0-cp310-cp310-manylinux_2_17_x86_64.whl",
@@ -48,12 +76,20 @@
     "bytes": 78454
   },
   {
+    "wheel": "tensorboard_plugin_wit-1.8.1-py3-none-any.whl",
+    "bytes": 781327
+  },
+  {
     "wheel": "json5-0.15.0-py3-none-any.whl",
     "bytes": 36570
   },
   {
     "wheel": "nbconvert-7.17.1-py3-none-any.whl",
     "bytes": 261927
+  },
+  {
+    "wheel": "numba-0.56.4-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 3489422
   },
   {
     "wheel": "psutil-7.2.2-cp36-abi3-manylinux_2_12_x86_64.whl",
@@ -68,8 +104,16 @@
     "bytes": 3415623
   },
   {
+    "wheel": "pyasn1-0.6.4-py3-none-any.whl",
+    "bytes": 84410
+  },
+  {
     "wheel": "rfc3339_validator-0.1.4-py3-none-any.whl",
     "bytes": 3490
+  },
+  {
+    "wheel": "entrypoints-0.4.2-py3-none-any.whl",
+    "bytes": 5350
   },
   {
     "wheel": "attrs-26.1.0-py3-none-any.whl",
@@ -84,12 +128,20 @@
     "bytes": 109828
   },
   {
+    "wheel": "tensorboard-2.10.1-py3-none-any.whl",
+    "bytes": 5873392
+  },
+  {
     "wheel": "debugpy-1.8.21-cp310-cp310-manylinux_2_34_x86_64.whl",
     "bytes": 3004715
   },
   {
     "wheel": "zarr-2.12.0-py3-none-any.whl",
     "bytes": 185751
+  },
+  {
+    "wheel": "llvmlite-0.39.1-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 34646601
   },
   {
     "wheel": "fqdn-1.5.1-py3-none-any.whl",
@@ -100,8 +152,24 @@
     "bytes": 17832
   },
   {
+    "wheel": "cloudpickle-3.1.2-py3-none-any.whl",
+    "bytes": 22228
+  },
+  {
+    "wheel": "zarr-2.12.0-py3-none-any.whl",
+    "bytes": 185751
+  },
+  {
     "wheel": "networkx-3.4.2-py3-none-any.whl",
     "bytes": 1723263
+  },
+  {
+    "wheel": "cffi-2.1.1-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 218742
+  },
+  {
+    "wheel": "docker_pycreds-0.4.0-py3-none-any.whl",
+    "bytes": 8982
   },
   {
     "wheel": "jupyterlab_server-2.28.0-py3-none-any.whl",
@@ -110,6 +178,10 @@
   {
     "wheel": "requests-2.31.0-py3-none-any.whl",
     "bytes": 62574
+  },
+  {
+    "wheel": "huggingface_hub-0.25.2-py3-none-any.whl",
+    "bytes": 436575
   },
   {
     "wheel": "jupyter-1.0.0-py3-none-any.whl",
@@ -124,12 +196,20 @@
     "bytes": 203402
   },
   {
+    "wheel": "python_dateutil-2.9.0.post0-py3-none-any.whl",
+    "bytes": 229892
+  },
+  {
     "wheel": "torch-2.11.0+cu128-cp310-cp310-manylinux_2_28_x86_64.whl",
     "bytes": 820206653
   },
   {
     "wheel": "numpy-2.2.6-cp310-cp310-manylinux_2_17_x86_64.whl",
     "bytes": 16801050
+  },
+  {
+    "wheel": "pytz-2026.5-py3-none-any.whl",
+    "bytes": 506342
   },
   {
     "wheel": "prometheus_client-0.26.0-py3-none-any.whl",
@@ -140,8 +220,20 @@
     "bytes": 8663
   },
   {
+    "wheel": "pygame-2.1.2-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 21850121
+  },
+  {
+    "wheel": "tensorboard_data_server-0.6.1-py3-none-manylinux2010_x86_64.whl",
+    "bytes": 4910134
+  },
+  {
     "wheel": "sympy-1.14.0-py3-none-any.whl",
     "bytes": 6299353
+  },
+  {
+    "wheel": "threadpoolctl-3.1.0-py3-none-any.whl",
+    "bytes": 14928
   },
   {
     "wheel": "matplotlib_inline-0.1.6-py3-none-any.whl",
@@ -160,8 +252,16 @@
     "bytes": 218760
   },
   {
+    "wheel": "dill-0.3.5.1-py3-none-any.whl",
+    "bytes": 95827
+  },
+  {
     "wheel": "referencing-0.37.0-py3-none-any.whl",
     "bytes": 26766
+  },
+  {
+    "wheel": "idna-3.20-py3-none-any.whl",
+    "bytes": 69583
   },
   {
     "wheel": "jupyterlab-4.6.2-py3-none-any.whl",
@@ -178,6 +278,14 @@
   {
     "wheel": "jupyter_lsp-2.3.1-py3-none-any.whl",
     "bytes": 77513
+  },
+  {
+    "wheel": "Werkzeug-3.1.9-py3-none-any.whl",
+    "bytes": 228700
+  },
+  {
+    "wheel": "urllib3-2.8.0-py3-none-any.whl",
+    "bytes": 135717
   },
   {
     "wheel": "beautifulsoup4-4.15.0-py3-none-any.whl",
@@ -204,6 +312,26 @@
     "bytes": 95827
   },
   {
+    "wheel": "diffusers-0.11.1-py3-none-any.whl",
+    "bytes": 524888
+  },
+  {
+    "wheel": "shortuuid-1.0.13-py3-none-any.whl",
+    "bytes": 10529
+  },
+  {
+    "wheel": "numpy-1.23.5-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 17059657
+  },
+  {
+    "wheel": "tifffile-2025.5.10-py3-none-any.whl",
+    "bytes": 226533
+  },
+  {
+    "wheel": "oauthlib-4.0.0-py3-none-any.whl",
+    "bytes": 159715
+  },
+  {
     "wheel": "nvidia_cublas_cu12-12.8.4.1-py3-none-manylinux_2_27_x86_64.whl",
     "bytes": 594346921
   },
@@ -228,12 +356,28 @@
     "bytes": 136983
   },
   {
+    "wheel": "absl_py-2.5.1-py3-none-any.whl",
+    "bytes": 137673
+  },
+  {
+    "wheel": "packaging-26.3-py3-none-any.whl",
+    "bytes": 129956
+  },
+  {
     "wheel": "contourpy-1.3.2-cp310-cp310-manylinux_2_17_x86_64.whl",
     "bytes": 325027
   },
   {
+    "wheel": "pyasn1_modules-0.4.2-py3-none-any.whl",
+    "bytes": 181259
+  },
+  {
     "wheel": "terminado-0.18.1-py3-none-any.whl",
     "bytes": 14154
+  },
+  {
+    "wheel": "pandas-1.5.3-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 12062104
   },
   {
     "wheel": "tzdata-2026.3-py3-none-any.whl",
@@ -252,6 +396,10 @@
     "bytes": 11774
   },
   {
+    "wheel": "GitPython-3.2.1-py3-none-any.whl",
+    "bytes": 231548
+  },
+  {
     "wheel": "pyzmq-27.1.0-cp310-cp310-manylinux_2_26_x86_64.whl",
     "bytes": 854149
   },
@@ -260,8 +408,24 @@
     "bytes": 28702
   },
   {
+    "wheel": "protobuf-3.19.6-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 1055327
+  },
+  {
+    "wheel": "regex-2026.9.29-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 797643
+  },
+  {
     "wheel": "isoduration-20.11.0-py3-none-any.whl",
     "bytes": 11321
+  },
+  {
+    "wheel": "scipy-1.9.1-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 43903805
+  },
+  {
+    "wheel": "cycler-0.12.1-py3-none-any.whl",
+    "bytes": 8321
   },
   {
     "wheel": "prompt_toolkit-3.0.52-py3-none-any.whl",
@@ -274,6 +438,10 @@
   {
     "wheel": "tornado-6.5.7-cp39-abi3-manylinux_2_5_x86_64.whl",
     "bytes": 449774
+  },
+  {
+    "wheel": "Pillow-9.5.0-cp310-cp310-manylinux_2_28_x86_64.whl",
+    "bytes": 3415623
   },
   {
     "wheel": "hydra_core-1.2.0-py3-none-any.whl",
@@ -290,6 +458,10 @@
   {
     "wheel": "torchaudio-2.11.0+cu128-cp310-cp310-manylinux_2_28_x86_64.whl",
     "bytes": 1684267
+  },
+  {
+    "wheel": "click-8.0.4-py3-none-any.whl",
+    "bytes": 97486
   },
   {
     "wheel": "nvidia_nvtx_cu12-12.8.90-py3-none-manylinux2014_x86_64.whl",
@@ -332,6 +504,10 @@
     "bytes": 4463873
   },
   {
+    "wheel": "google_auth_oauthlib-0.4.6-py3-none-any.whl",
+    "bytes": 18306
+  },
+  {
     "wheel": "soupsieve-2.9.1-py3-none-any.whl",
     "bytes": 37404
   },
@@ -344,12 +520,32 @@
     "bytes": 288216466
   },
   {
+    "wheel": "numcodecs-0.10.2-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 6685467
+  },
+  {
+    "wheel": "scikit_video-1.1.11-py3-none-any.whl",
+    "bytes": 2255186
+  },
+  {
+    "wheel": "pyparsing-3.3.3-py3-none-any.whl",
+    "bytes": 126420
+  },
+  {
     "wheel": "tinycss2-1.5.1-py3-none-any.whl",
     "bytes": 28404
   },
   {
+    "wheel": "matplotlib-3.6.1-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 11840372
+  },
+  {
     "wheel": "jupyter_server_terminals-0.5.4-py3-none-any.whl",
     "bytes": 13704
+  },
+  {
+    "wheel": "fonttools-4.65.0-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 5253649
   },
   {
     "wheel": "comm-0.2.3-py3-none-any.whl",
@@ -376,8 +572,16 @@
     "bytes": 87126
   },
   {
+    "wheel": "tqdm-4.64.1-py3-none-any.whl",
+    "bytes": 78468
+  },
+  {
     "wheel": "anyio-4.14.2-py3-none-any.whl",
     "bytes": 125813
+  },
+  {
+    "wheel": "requests_oauthlib-2.0.0-py3-none-any.whl",
+    "bytes": 24179
   },
   {
     "wheel": "python_dateutil-2.9.0.post0-py3-none-any.whl",
@@ -392,8 +596,24 @@
     "bytes": 120583
   },
   {
+    "wheel": "Shapely-1.8.4-cp310-cp310-manylinux_2_12_x86_64.whl",
+    "bytes": 2042042
+  },
+  {
     "wheel": "exceptiongroup-1.3.1-py3-none-any.whl",
     "bytes": 16740
+  },
+  {
+    "wheel": "contourpy-1.3.2-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 325027
+  },
+  {
+    "wheel": "psutil-5.9.2-cp310-cp310-manylinux_2_12_x86_64.whl",
+    "bytes": 282777
+  },
+  {
+    "wheel": "charset_normalizer-3.5.2-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 271105
   },
   {
     "wheel": "stack_data-0.6.3-py3-none-any.whl",
@@ -402,6 +622,10 @@
   {
     "wheel": "decorator-5.3.1-py3-none-any.whl",
     "bytes": 10365
+  },
+  {
+    "wheel": "gitdb-4.0.12-py3-none-any.whl",
+    "bytes": 62794
   },
   {
     "wheel": "triton-3.6.0-cp310-cp310-manylinux_2_27_x86_64.whl",
@@ -414,6 +638,10 @@
   {
     "wheel": "notebook-7.6.1-py3-none-any.whl",
     "bytes": 5546368
+  },
+  {
+    "wheel": "PyYAML-6.0.3-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 770293
   },
   {
     "wheel": "nvidia_nccl_cu12-2.28.9-py3-none-manylinux_2_18_x86_64.whl",
@@ -468,6 +696,14 @@
     "bytes": 139103095
   },
   {
+    "wheel": "omegaconf-2.2.3-py3-none-any.whl",
+    "bytes": 79285
+  },
+  {
+    "wheel": "requests-2.34.2-py3-none-any.whl",
+    "bytes": 73075
+  },
+  {
     "wheel": "arrow-1.4.0-py3-none-any.whl",
     "bytes": 68797
   },
@@ -484,12 +720,28 @@
     "bytes": 2283
   },
   {
+    "wheel": "fasteners-0.20-py3-none-any.whl",
+    "bytes": 18702
+  },
+  {
+    "wheel": "imageio_ffmpeg-0.4.7-py3-none-manylinux2010_x86_64.whl",
+    "bytes": 26899799
+  },
+  {
     "wheel": "einops-0.4.1-py3-none-any.whl",
     "bytes": 28197
   },
   {
     "wheel": "h11-0.16.0-py3-none-any.whl",
     "bytes": 37515
+  },
+  {
+    "wheel": "tensorboardX-2.5.1-py3-none-any.whl",
+    "bytes": 125354
+  },
+  {
+    "wheel": "smmap-5.0.3-py3-none-any.whl",
+    "bytes": 24390
   },
   {
     "wheel": "traitlets-5.15.1-py3-none-any.whl",
@@ -500,6 +752,10 @@
     "bytes": 536198
   },
   {
+    "wheel": "sentry_sdk-2.72.0-py3-none-any.whl",
+    "bytes": 544754
+  },
+  {
     "wheel": "wcwidth-0.8.2-py3-none-any.whl",
     "bytes": 323166
   },
@@ -508,8 +764,16 @@
     "bytes": 88040029
   },
   {
+    "wheel": "hydra_core-1.2.0-py3-none-any.whl",
+    "bytes": 151068
+  },
+  {
     "wheel": "omegaconf-2.2.3-py3-none-any.whl",
     "bytes": 79285
+  },
+  {
+    "wheel": "pymunk-6.2.1-cp310-cp310-manylinux_2_5_x86_64.whl",
+    "bytes": 979460
   },
   {
     "wheel": "nvidia_cuda_cupti_cu12-12.8.90-py3-none-manylinux2014_x86_64.whl",
@@ -520,6 +784,10 @@
     "bytes": 223817
   },
   {
+    "wheel": "networkx-2.8.8-py3-none-any.whl",
+    "bytes": 2025192
+  },
+  {
     "wheel": "nvidia_cudnn_cu12-9.19.0.56-py3-none-manylinux_2_27_x86_64.whl",
     "bytes": 657906812
   },
@@ -528,12 +796,28 @@
     "bytes": 14657
   },
   {
+    "wheel": "cryptography-50.0.2-cp39-abi3-manylinux_2_34_x86_64.whl",
+    "bytes": 4780973
+  },
+  {
     "wheel": "jupyter_console-6.6.3-py3-none-any.whl",
     "bytes": 24510
   },
   {
+    "wheel": "importlib_metadata-9.0.1-py3-none-any.whl",
+    "bytes": 27920
+  },
+  {
+    "wheel": "PyWavelets-1.8.0-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 4487695
+  },
+  {
     "wheel": "kiwisolver-1.5.0-cp310-cp310-manylinux_2_12_x86_64.whl",
     "bytes": 1628776
+  },
+  {
+    "wheel": "opencv_python_headless-4.6.0.66-cp36-abi3-manylinux_2_17_x86_64.whl",
+    "bytes": 48266525
   },
   {
     "wheel": "scipy-1.9.1-cp310-cp310-manylinux_2_17_x86_64.whl",
@@ -546,6 +830,14 @@
   {
     "wheel": "torchvision-0.26.0+cu128-cp310-cp310-manylinux_2_28_x86_64.whl",
     "bytes": 8053474
+  },
+  {
+    "wheel": "scikit_image-0.19.3-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 13907902
+  },
+  {
+    "wheel": "av-12.3.0-cp310-cp310-manylinux_2_17_x86_64.whl",
+    "bytes": 33490936
   },
   {
     "wheel": "jupyter_core-5.9.1-py3-none-any.whl",
@@ -592,12 +884,28 @@
     "bytes": 165109
   },
   {
+    "wheel": "pycparser-3.11-py3-none-any.whl",
+    "bytes": 51178
+  },
+  {
+    "wheel": "cmake-3.24.3-py3-none-manylinux_2_17_x86_64.whl",
+    "bytes": 23297706
+  },
+  {
     "wheel": "nest_asyncio2-1.7.2-py3-none-any.whl",
     "bytes": 7843
   },
   {
     "wheel": "tomli-2.4.1-py3-none-any.whl",
     "bytes": 14583
+  },
+  {
+    "wheel": "six-1.17.0-py3-none-any.whl",
+    "bytes": 11050
+  },
+  {
+    "wheel": "Markdown-3.10.3-py3-none-any.whl",
+    "bytes": 110757
   },
   {
     "wheel": "setuptools-78.1.0-py3-none-any.whl",
@@ -612,12 +920,28 @@
     "bytes": 11140
   },
   {
+    "wheel": "wandb-0.13.3-py3-none-any.whl",
+    "bytes": 1840980
+  },
+  {
     "wheel": "typing_extensions-4.15.0-py3-none-any.whl",
     "bytes": 44614
   },
   {
+    "wheel": "einops-0.4.1-py3-none-any.whl",
+    "bytes": 28197
+  },
+  {
+    "wheel": "zipp-4.1.1-py3-none-any.whl",
+    "bytes": 10582
+  },
+  {
     "wheel": "scikit_video-1.1.11-py3-none-any.whl",
     "bytes": 2255186
+  },
+  {
+    "wheel": "setproctitle-1.3.8-cp310-cp310-manylinux_2_5_x86_64.whl",
+    "bytes": 31928
   },
   {
     "wheel": "pyparsing-3.0.9-py3-none-any.whl",
@@ -626,5 +950,33 @@
   {
     "wheel": "cuda_bindings-12.9.4-cp310-cp310-manylinux_2_24_x86_64.whl",
     "bytes": 12148218
+  },
+  {
+    "wheel": "antlr4_python3_runtime-4.9.3-py3-none-any.whl",
+    "bytes": 144554
+  },
+  {
+    "wheel": "egl_probe-1.0.2-cp310-cp310-linux_x86_64.whl",
+    "bytes": 476395
+  },
+  {
+    "wheel": "gym-0.21.0-py3-none-any.whl",
+    "bytes": 1616797
+  },
+  {
+    "wheel": "asciitree-0.3.3-py3-none-any.whl",
+    "bytes": 5032
+  },
+  {
+    "wheel": "promise-2.3-py3-none-any.whl",
+    "bytes": 21486
+  },
+  {
+    "wheel": "pathtools-0.1.2-py3-none-any.whl",
+    "bytes": 8791
+  },
+  {
+    "wheel": "robomimic-0.2.0-py3-none-any.whl",
+    "bytes": 223237
   }
 ]

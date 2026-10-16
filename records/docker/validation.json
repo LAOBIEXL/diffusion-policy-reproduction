@@ -1,0 +1,53 @@
+{
+  "container_exit_code": 0,
+  "image_id": "sha256:8a85744c7f007d6ec167ebd0161bfc243c2451f119852df6f2affa8c7454b74c",
+  "network_mode": "none",
+  "gpu_requests": [
+    {
+      "Driver": "",
+      "Count": -1,
+      "DeviceIDs": null,
+      "Capabilities": [
+        [
+          "gpu"
+        ]
+      ],
+      "Options": {}
+    }
+  ],
+  "test_episodes": 50,
+  "mean_score": 0.9188447508779134,
+  "wsl_mean_score": 0.9188447508779134,
+  "max_episode_difference_vs_wsl": 1.1102230246251565e-16,
+  "configuration_matches_wsl": true,
+  "videos": [
+    {
+      "file": "seed4300000.mp4",
+      "frames": 300,
+      "width": 96,
+      "height": 96,
+      "codec": "h264"
+    },
+    {
+      "file": "seed4300001.mp4",
+      "frames": 296,
+      "width": 96,
+      "height": 96,
+      "codec": "h264"
+    },
+    {
+      "file": "seed4300002.mp4",
+      "frames": 125,
+      "width": 96,
+      "height": 96,
+      "codec": "h264"
+    },
+    {
+      "file": "seed4300003.mp4",
+      "frames": 175,
+      "width": 96,
+      "height": 96,
+      "codec": "h264"
+    }
+  ]
+}

@@ -80,3 +80,23 @@ python scripts/evaluate_checkpoint.py --checkpoint data/checkpoints/official_tra
 评测耗时 96.63 秒，峰值 GPU 分配内存 1136.01 MiB。保存了 4 个测试回合和 2 个训练回合的视频。逐回合对比见 `records/evaluation/episodes.csv`，完整配置与结果见同目录报告。
 
 相同配置再次独立评测，平均得分为 0.9188447508779135，耗时 92.40 秒。50 个回合与第一次结果的最大绝对差为 2.22e-16。复跑原始记录保存在 `records/evaluation/repeat_eval_log.json`。
+
+## 08 · Docker 打包与验证
+
+基础镜像固定为 Python 3.10.20 / Debian bookworm 的 linux/amd64 digest，沿用已验证的 PyTorch 2.11.0 + CUDA 12.8 和仿真依赖。官方实现仍固定在同一 Git submodule commit。
+
+从官方检查点导出 EMA 状态、归一化参数、Hydra 配置和 epoch，逐项检查全部 300 项状态数据相等。导出文件大小为 1,095,732,071 bytes，SHA256 为 `a694a6542983587fba8dcd9cf4c504600f6456f07f55ed36c7dc69dbf1b3ebca`。镜像同时内置 epoch=500 对应的官方参考日志记录。
+
+使用 `--gpus all --shm-size=1g --network none` 启动镜像，仅挂载 `/output` 结果目录。默认入口完成 56 个环境的闭环控制，统计其中 50 个测试回合，并自动输出比较报告。
+
+- Docker 平均得分：0.9188447508779135。
+- 评测耗时：92.37631249000003 秒。
+- 峰值 GPU 分配内存：1136.01416015625 MiB。
+- 与 WSL 评测逐回合最大绝对差：1.1102230246251565e-16。
+- 测试种子、检查点配置和评测配置与 WSL 一致。
+- 4 段 H.264 / 96×96 视频完整解码通过。
+- 容器退出码为 0，`pip check` 通过。
+
+结果、日志和配置保存在 `records/docker/`，镜像运行与构建命令见 `docs/docker.md`。
+
+镜像已导出为 `diffusion-policy-pusht-epoch0500.tar.gz`，大小 5,682,020,340 bytes，SHA256 为 `5e8cafaadf8e4c711ac2f535a73be1d8cd57eb4b32887a0b59fb845bbc7f0cbe`。重新执行 `docker load` 后，image ID 与评测时一致；导出和导入记录分别保存在 `records/docker/image.json`、`records/docker/import-validation.json`。

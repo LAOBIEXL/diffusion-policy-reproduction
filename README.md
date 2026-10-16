@@ -4,14 +4,31 @@
 
 ## 复现结果
 
-| 指标 | 官方记录 | 本机结果 |
-| --- | ---: | ---: |
-| 50 回合平均得分 | 0.883584 | 0.918845 |
-| 得分差值 | — | +0.035261 |
+| 指标 | 官方记录 | WSL 复现 | Docker 复现 |
+| --- | ---: | ---: | ---: |
+| 50 回合平均得分 | 0.883584 | 0.918845 | 0.918845 |
+| 得分差值 | — | +0.035261 | +0.035261 |
+| 评测耗时 | — | 96.63 s | 92.38 s |
 
-评测耗时 96.63 秒，峰值 GPU 分配内存 1136.01 MiB。完整报告与逐回合数据见 [评测报告](records/evaluation/report.md)。
+峰值 GPU 分配内存均为 1136.01 MiB。完整报告与逐回合数据见 [WSL 评测报告](records/evaluation/report.md)和 [Docker 评测报告](records/docker/evaluation/report.md)。
 
 相同配置独立运行两次，平均得分均为 0.918845，逐回合最大绝对差为 2.22e-16。
+
+Docker 在关闭网络、只挂载结果目录的条件下完成评测，与 WSL 结果的逐回合最大绝对差为 1.11e-16。4 段测试视频均已验证可解码。
+
+## Docker 一键评测
+
+镜像内置官方 EMA 权重、仿真环境和参考记录。导入交付文件后，在 Linux / WSL 中运行：
+
+```bash
+docker load -i diffusion-policy-pusht-epoch0500.tar.gz
+mkdir -p results
+docker run --gpus all --shm-size=1g --network none \
+  --mount "type=bind,source=$PWD/results,target=/output" \
+  laobiexl/diffusion-policy-reproduction:pusht-epoch0500
+```
+
+完成后查看 `results/report/report.md`，逐回合得分在 `results/report/episodes.csv`，视频在 `results/report/videos/`。Windows PowerShell 命令、源码构建和镜像导出见 [Docker 运行说明](docs/docker.md)。
 
 ## 实验设置
 
@@ -75,6 +92,8 @@ python scripts/compare_results.py --evaluation runs/eval-official-epoch0500/eval
 | `records/` | 环境快照、数据校验、实验配置和结果 |
 | `docs/reproduction_protocol.md` | 实验流程与指标定义 |
 | `docs/experiment_log.md` | 实际执行记录 |
+| `Dockerfile`、`docker/` | 镜像构建和固定依赖 |
+| `docs/docker.md` | 镜像导入、评测、构建与导出命令 |
 | `data/`、`runs/` | 本地数据、权重、运行日志和视频 |
 
 ## 参考资料

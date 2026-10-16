@@ -1,0 +1,7 @@
+{
+  "loaded_image_id": "sha256:8a85744c7f007d6ec167ebd0161bfc243c2451f119852df6f2affa8c7454b74c",
+  "matches_evaluated_image": true,
+  "load_exit_code": 0,
+  "archive": "diffusion-policy-pusht-epoch0500.tar.gz",
+  "archive_sha256": "5e8cafaadf8e4c711ac2f535a73be1d8cd57eb4b32887a0b59fb845bbc7f0cbe"
+}
